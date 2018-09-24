@@ -1,0 +1,12 @@
+<testsuite errors="0" failures="0" hostname="Jamess-MacBook-Pro.local" name="createcontact.Create a new job seeker contact for ziprecruiter" skipped="0" tests="1" time="6.552627" timestamp="2018-08-27T16:11:28.235236"><testcase classname="createcontact.Create a new job seeker contact for ziprecruiter" name="create a job seeker account" status="passed" time="6.552627"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: create a job seeker account
+    Given you can access homepage ... passed in 3.002s
+    When user clicks the create contact link ... passed in 0.595s
+    Then user fills in contact information ... passed in 2.956s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
