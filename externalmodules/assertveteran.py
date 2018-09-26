@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 import time
-import re	
+import re
 
 VETERAN_SEARCH = "Search veteran jobs"
 VETERAN_JOBS = "Search Jobs for Veterans"
@@ -40,7 +40,7 @@ class Veteran(object):
 		veteran_popup = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "modal-close"))).click()
 
 	def assert_veteran(self):
-		
+
 		job_title = self.driver.find_elements_by_class_name(JOB_TITLES)
 		job_description = self.driver.find_elements_by_class_name(JOB_DESCRIPTIONS)
 
