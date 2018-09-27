@@ -10,4 +10,5 @@ def step_impl(context):
 
 @then('user fills in employer information')
 def step_impl(context):
+	emp = EmployerCreation(context.driver)
 	emp.employee_info()
