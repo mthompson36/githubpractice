@@ -10,11 +10,9 @@ import random
 import time
 
 from externalmodules.driversetup import close_driver
-#from externalmodules.staginglogin import staging_login
 
 random_name = uuid.uuid4()
 
-#staging_login()
 
 class EmployerCreation(object):
 
