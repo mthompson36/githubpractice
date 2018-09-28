@@ -14,7 +14,7 @@ from externalmodules.staginglogin import staging_login
 
 random_name = uuid.uuid4()
 
-staging_login()
+#staging_login()
 
 class EmployerCreation(object):
 
